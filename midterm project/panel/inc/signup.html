@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin |User |Signup</title>
+</head>
+<body>
+    <fieldset style="width: 400px; margin: 100px 0px 0 510px;">
+        <legend><b>User Register Account</b></legend>
+        <section>
+            <form action="../controller/signup.php" method="post">
+                <label for="Name">Name</label><br>
+                <input type="text" name="name"><br>
+                <label for="Email">Email</label><br>
+                <input type="email" name="email"><br>
+                <label for="Password">Password</label><br>
+                <input type="password" name="password"><br>
+                <label for="Contact">Contact</label><br>
+                <input type="number" name="number"><br>
+                <label for="gender">Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="male">Female</label><br><br>
+                <label for="User">Controller</label><br>
+                <select name="controller" id="">
+                    <option value="admin">Admin</option>
+                    <option value="moderator">Moderator</option>
+                </select><br><br>
+                <input type="reset">
+                <input type="submit" name="signup" value="Register"><br><br>
+                Already Have an Account?
+                <a href="signin.html">SignIn</a> || <a href="../index.php">Dashboard</a>
+            </form>
+        </section>
+    </fieldset>
+</body>
+</html>

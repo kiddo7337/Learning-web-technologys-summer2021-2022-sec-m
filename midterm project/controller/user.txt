@@ -1,0 +1,3 @@
+6|Hasan|hasan@gmail.com|123|Kuril|1999-04-06|01224789845585|male
+9|Imtiaz|imtiaz@gmail.com|1234|Dhaka|1999-02-06|2154885|male
+5|Antor|antor@gmail.com|123|Dhaka||0125754|male

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Post</title>
+</head>
+<body>
+    <fieldset style="width: 400px; margin: 50px 0px 0 510px;">
+        <legend><b>Apply For Job Post</b></legend>
+        <section>
+            <form action="../controller/applyjob.php" method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <legend><b>Personal Information</b></legend>
+                    <label for="Name">Name</label><br>
+                    <input type="text" name="name"><br>
+                    <label for="Date">Date of Birth</label><br>
+                    <input type="date" name="dob"><br>
+                    <label for="Nationality">Nationality</label><br>
+                    <input type="text" name="nationality"><br>
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="male">Female</label><br>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Contact Information</b></legend>
+                    <label for="Contact">Contact</label><br>
+                    <input type="number" name="number"><br>
+                    <label for="Email">Email</label><br>
+                    <input type="email" name="email"><br>
+                    <label for="Address">Address</label><br>
+                    <input type="text" name="address"><br>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Education Information</b></legend>
+                    <!-- <label for="Degree">Degree:</label>
+                    <select name="education">
+                    <option value="Msc">Msc</option>
+                    <option value="Bsc">Bsc</option>
+                    <option value="Hsc">Hsc</option>
+                    <option value="Ssc">Ssc</option>
+                    </select>
+                    <label for="year">Passing year</label>
+                    <input type="date" name="pyear"><br> -->
+                    <label for="Degree">Degree:</label>
+                    <select name="education">
+                    <option value="Msc">Msc</option>
+                    <option value="Bsc">Bsc</option>
+                    <option value="Hsc">Hsc</option>
+                    <option value="Ssc">Ssc</option>
+                    </select>
+                    <label for="year">Passing year</label>
+                    <input type="date" name="pyear"><br>
+                    <label for="Degree">Degree:</label>
+                    <select name="education">
+                    <option value="Msc">Msc</option>
+                    <option value="Bsc">Bsc</option>
+                    <option value="Hsc">Hsc</option>
+                    <option value="Ssc">Ssc</option>
+                    </select>
+                    <label for="year">Passing year</label>
+                    <input type="date" name="pyear"><br>
+                    <label for="Degree">Degree:</label>
+                    <select name="education">
+                    <option value="Msc">Msc</option>
+                    <option value="Bsc">Bsc</option>
+                    <option value="Hsc">Hsc</option>
+                    <option value="Ssc">Ssc</option>
+                    </select>
+                    <label for="year">Passing year</label>
+                    <input type="date" name="pyear">
+                </fieldset> 
+                <fieldset>
+                    <legend><b>Write Down Your Application</b></legend>
+                    <label for="Application">Application</label><br>
+                    <textarea name="application" id="" cols="50" rows="5"></textarea>
+                </fieldset>
+               <!--  <fieldset>
+                    <legend><b>Drop Your Resume</b></legend>
+                    <label for="resume">Resume</label><br>
+                    <input type="file" name="resume">
+                </fieldset> --><br>
+                <input type="reset">
+                <input type="submit" name="applypost" value="Apply"><br><br>
+                Already applied ?
+                <a href="../">Home</a>
+            </form>
+        </section>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,2 @@
+1|admin|user@user.com|123|017978565651651|Female|admin
+6|rahman|rahman@mail.com|123456|01254852252|Male
